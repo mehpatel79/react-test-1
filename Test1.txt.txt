@@ -1,1 +1,42 @@
-Test 1 file
+Test 1 : React
+
+Q1.
+Ans : State should be used in class components, while props should be used to pass the parameter of one class components to another components.
+
+
+Q2.
+Ans: There are two types of components in react. One is Class Components and another is Function Components.
+
+
+Q3.
+Ans:  
+	1 componentdidmounted
+	2 componentmount
+	3 componentwillmount
+
+
+Q4.
+Ans: useState hook return the updated value of state, which are provided in that hook.
+
+
+Q5.
+Ans.: Context is introduced to overcome the problem of prop drilling. By using context, we should not need to use props of parent to child components. 
+
+
+Q6.
+Ans.: uni-directional data flow direction start When a user perform a event, the event handler executes a event to update the state. when the state is updated, the UIX is automatically updated by react library. 
+
+
+Q7.
+Ans.: If there is more than one components and you need to update the state of every components and also want to use state of one components into another components. In that case, components state value is defined in the parent components to use in every of its child components. This situation is called as "lifting the state up".
+
+
+Q8.
+Ans.: No. It is right to assign a value in the particular state field.
+
+
+Q9.
+Ans.: component will mount
+
+Q10.
+Ans.: <input type="text" handleChange={handleChange} value={} />
